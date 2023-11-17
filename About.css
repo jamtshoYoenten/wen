@@ -1,0 +1,295 @@
+
+@media(max-width:600px){
+.container-fluid{
+    background-color:lightblue;
+  }
+  nav{
+      cursor: pointer;
+  }
+
+  #logo{
+    width: 90px;
+    height: 80px;
+  }
+  
+  .d-flex button{
+    padding-left: 10px;
+    height: 40px;
+   
+    border-radius: 50px;
+  }
+  .d-flex button:hover{
+    background-color:lightsteelblue;
+    border-radius: 50px;
+  }
+  .dropdown{
+   padding-left: 9px;
+  }
+  .d-flex{
+    padding-left: 480px; 
+  }
+
+  .card-header{
+    text-align: center;
+  }
+  .card-text{
+    text-align: center;
+  }
+ .card-body{
+  text-align: center;
+ }
+ .card-body:hover{
+  background-color: lightcyan;
+  transition: 1.5s;
+ }
+ 
+.onePage{
+    width: 100%;
+    background-color: azure;
+}
+
+.yonten{
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://i.pinimg.com/originals/61/44/2f/61442f2241fc5abce9a83f053b0b904a.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h5 {
+    text-align: center;
+  }
+  h2{
+    text-align: center; 
+  }
+  .card-text{
+    text-align: center;
+  }
+ .card-body{
+  text-align: center;
+  background-color: lightskyblue;
+ }
+ .card-body:hover{
+  background-color: lightcyan;
+  transition: 1.5s;
+ }
+ 
+.Gallery{
+  width: 100%;
+  height: 40vh; 
+  display: flex;
+  
+}
+.profile{
+  width: 300px;
+  height: 200px;
+  
+}
+.profile img {
+  width: 300px;
+   height:200px;
+   border-radius: 100%;
+}
+
+.flex-item{
+  background-color:lightblue;
+  padding: 3% 3% 3%;
+  box-shadow: 5px 5px 15px black;
+  margin: 10px;
+}
+.img-col{
+  width: 50%;   
+}
+.card-body i{
+
+  color: black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  
+      }
+      
+.img-col img {
+  width: 100%;
+  height: 80%;
+ margin-left: 0px;
+ position: relative;
+ padding-bottom: 30px;
+ border-radius: 100%;
+ 
+}
+.nav-item a{
+  font-weight: 500;
+  transition: all ease.50s;
+  border-bottom: 2px solid transparent;
+}
+.nav-item:hover a{
+  border-bottom: 2px solid black;
+} 
+ol{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+}
+
+
+@media(min-width:1200px){
+
+  .container-fluid{
+      background-color:lightblue;
+    }
+    nav{
+        cursor: pointer;
+    }
+  p{
+    text-align: center;
+  }
+    #logo{
+      width: 90px;
+      height: 80px;
+    }
+    
+    .d-flex button{
+      padding-left: 10px;
+      height: 40px;
+     
+      border-radius: 50px;
+    }
+    .d-flex button:hover{
+      background-color:lightsteelblue;
+      border-radius: 50px;
+    }
+    .dropdown{
+     padding-left: 9px;
+    }
+    .d-flex{
+      padding-left: 480px; 
+    }
+    .card-body i{
+
+      color: black;
+      border-radius: 20px;
+      padding: 10px 20px;
+      
+          }
+          
+    .card-header{
+      text-align: center;
+    }
+    .card-text{
+      text-align: center;
+    }
+   .card-body{
+    text-align: center;
+   }
+   .card-body:hover{
+    background-color: lightcyan;
+    transition: 1.5s;
+   }
+   
+  .onePage{
+      width: 100%;
+      background-color: azure;
+  }
+  
+  .yonten{
+      width: 100%;
+      height: 70vh;
+      background-image: url("https://i.pinimg.com/originals/61/44/2f/61442f2241fc5abce9a83f053b0b904a.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    h5 {
+      text-align: center;
+    }
+    h2{
+      text-align: center; 
+    }
+    
+    .card-text{
+      text-align: center;
+    }
+   .card-body{
+    text-align: center;
+    background-color: lightskyblue;
+   }
+   .card-body:hover{
+    background-color: lightcyan;
+    transition: 1.5s;
+   }
+   
+  .Gallery{
+    width: 50%;
+    height: 40vh;   
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .img-col h3 p{
+    justify-content: space-around;
+
+
+  }
+  .profile{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+   
+    margin: 0 auto;
+    
+  }
+  
+  .profile img {
+    width: 200px;
+     height:200px;
+     object-fit: contain;
+     border-radius: 100%;
+  }
+  
+  .flex-item{
+    background-color:lightblue;
+    padding: 3% 3% 3%;
+    box-shadow: 5px 5px 15px black;
+    margin: 10px;
+  }
+  .img-col{
+    width: 52%;
+    text-align: center;
+  
+     
+  }
+  
+  
+  .img-col img {
+   width: 100%;
+    height: 90%;
+   margin-left: 200px;
+   position: relative;
+   left: 95px;
+   padding-bottom: 30px;
+   padding: 2px;
+   border-radius: 50%;
+   
+   
+   
+  }
+  
+  ol{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  .nav-item a{
+    font-weight: 500;
+    transition: all ease.50s;
+    border-bottom: 2px solid transparent;
+  }
+  .nav-item:hover a{
+    border-bottom: 2px solid black;
+  } 
+  
+  }
+  
+  
+  

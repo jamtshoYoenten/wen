@@ -1,0 +1,182 @@
+@media(max-width:600px){
+.container-fluid{
+    background-color:lightblue;
+    width: 100%;
+  }
+  nav{
+      cursor: pointer;
+  }
+  .nav-item a{
+    font-weight: 500;
+    transition: all ease.50s;
+    border-bottom: 2px solid transparent;
+  }
+  .nav-item:hover a{
+    border-bottom: 2px solid black;
+  } 
+
+  #logo{
+    width: 90px;
+    height: 80px;
+  }
+  
+  .d-flex button{
+    padding-left: 10px;
+    height: 40px;
+   
+    border-radius: 50px;
+  }
+  .d-flex button:hover{
+    background-color:lightsteelblue;
+    border-radius: 50px;
+  }
+  .dropdown{
+   padding-left: 9px;
+  }
+  .d-flex{
+    padding-left: 480px; 
+  }
+
+ 
+  .card-text{
+    text-align: center;
+  }
+ .card-body{
+  text-align: center;
+  background-color: lightskyblue;
+ }
+ .card-body:hover{
+  background-color: lightcyan;
+  transition: 1.5s;
+ }
+ .card-body i{
+
+  color: black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  
+      }
+      
+.form101 {
+    width: 95%;
+    height: 115vh;
+    background-color: lightsteelblue;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    border: 1px dotted black;
+    box-shadow: 0px 0px 1px 1px gray;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding: 20px;
+}
+.form-label{
+    text-align: center;
+}
+.form-control{
+    text-align: center;
+}
+
+label{
+    text-align: center;
+}
+h6{
+    text-align: center;
+    font-size: 2vmin;
+}
+.col-12{
+    text-align: center;
+}
+
+}
+
+@media(min-width:1200px){
+  .container-fluid{
+      background-color:lightblue;
+      width: 100%;
+    }
+    nav{
+        cursor: pointer;
+    }
+    .nav-item a{
+      font-weight: 500;
+      transition: all ease.50s;
+      border-bottom: 2px solid transparent;
+    }
+    .nav-item:hover a{
+      border-bottom: 2px solid black;
+    } 
+  
+    #logo{
+      width: 90px;
+      height: 80px;
+    }
+    
+    .d-flex button{
+      padding-left: 10px;
+      height: 40px;
+     
+      border-radius: 50px;
+    }
+    .d-flex button:hover{
+      background-color:lightsteelblue;
+      border-radius: 50px;
+    }
+    .dropdown{
+     padding-left: 9px;
+    }
+    .d-flex{
+      padding-left: 480px; 
+    }
+  
+    .card-body i{
+
+      color: black;
+      border-radius: 20px;
+      padding: 10px 20px;
+      
+          }
+          
+    .card-text{
+      text-align: center;
+    }
+   .card-body{
+    text-align: center;
+    background-color: lightskyblue;
+   }
+   .card-body:hover{
+    background-color: lightcyan;
+    transition: 1.5s;
+   }
+   
+  
+  .form101 {
+      width: 95%;
+      height: 80vh;    
+      background-color: lightsteelblue;
+      margin: 0 auto;
+      display: flex;
+      border-radius: 10px;
+      border: 1px dotted black;
+      box-shadow: 0px 0px 1px 1px gray;
+      padding: 20px;
+  }
+  .form-label{
+      text-align: center;
+  }
+  .form-control{
+      text-align: center;
+  }
+  
+  label{
+      text-align: center;
+  }
+  h6{
+      text-align: center;
+      font-size: 2vmin;
+  }
+  .col-12{
+      text-align: center;
+  }
+  
+  }

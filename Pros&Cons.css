@@ -1,0 +1,322 @@
+
+.container-fluid{
+    background-color:lightblue;
+    width: 100%;
+  }
+  nav{
+      cursor: pointer;
+  }
+
+  #logo{
+    width: 90px;
+    height: 80px;
+  }
+  .card-body i{
+
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+        }
+  
+  .d-flex button{
+    padding-left: 10px;
+    height: 40px;
+   
+    border-radius: 50px;
+  }
+  .d-flex button:hover{
+    background-color:lightsteelblue;
+    border-radius: 50px;
+  }
+  .dropdown{
+   padding-left: 9px;
+  }
+  .d-flex{
+    padding-left: 480px; 
+  }
+
+  .card-header{
+    text-align: center;
+  }
+  .card-text{
+    text-align: center;
+  }
+ .card-body{
+  text-align: center;
+  background-color: lightskyblue;
+ }
+ .card-body:hover{
+  background-color: lightcyan;
+  transition: 1.5s;
+ }
+ 
+
+ 
+ body{
+     background-color:lightsteelblue;
+ }
+ 
+ 
+ #container{
+     width: 50%;
+     height: 60vh;
+     /* background-color: lightsteelblue; */
+     background-image: url("https://clipart-library.com/data_images/549664.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     justify-content: center;
+     margin: auto; 
+ }
+ hr{
+     height: 2px;
+     border: 2px solid black;
+     background-color: black;
+ }
+ #ad{
+     width: 100%;
+     height: 70vh;
+     border: 2px solid black;
+     background-color: antiquewhite;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px;
+     box-shadow: 0px 0px 4px 4px gray;
+     background-color: transparent;
+ }
+ #disadvantage{
+     background-color: bisque;
+     width: 100%;
+     height: 70vh;
+     border: 2px solid black;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     box-shadow: 0px 0px 4px 4px gray;
+     background-color: transparent;
+ }
+ h2{
+     text-align: center;
+ }
+ 
+ h1{
+     text-align: center;
+ }
+ 
+ @media (max-width:600px) {
+     #container{
+         width: 100%;
+         height: 60vh;
+         background-image: url("https://clipart-library.com/data_images/549664.gif");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         justify-content: center;
+         margin: auto;   
+         
+     }
+     hr{
+         height: 2px solid black;
+         border: 2px solid black;
+         background-color: black;
+     }
+     #ad{
+         width: 100%;
+         height: 60vh;
+         border: 2px solid black;
+         background-color: antiquewhite;
+         border-top-left-radius: 50px;
+         border-bottom-left-radius: 50px;
+         box-shadow: 0px 0px 4px 4px gray;
+         background-color: transparent;
+     }
+     .card-body i{
+
+        color: black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        
+            }
+     #disadvantage{
+         background-color: bisque;
+         width: 100%;
+         height: 60vh;
+         border: 2px solid black;
+         border-top-right-radius: 50px;
+         border-bottom-right-radius: 50px;
+         box-shadow: 0px 0px 4px 4px gray;
+         background-color: transparent;
+     }
+     h2{
+         text-align: center;
+     }
+     
+     h1{
+         text-align: center;
+     }
+     
+ }
+ 
+  
+ @media (max-width:768px) and (min-width:601px){
+     #container{
+         width: 50%;
+         height: 70vh;
+         /* background-color: lightsteelblue; */
+         background-image: url("https://clipart-library.com/data_images/549664.gif");
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         justify-content: center;
+         margin: auto; 
+     }
+     hr{
+         height: 2px;
+         border: 2px solid black;
+         background-color: black;
+     }
+     #ad{
+         width: 350px;
+         height: 70vh;
+         border: 2px solid black;
+         background-color: antiquewhite;
+         border-top-left-radius: 50px;
+         border-bottom-left-radius: 50px;
+         box-shadow: 0px 0px 4px 4px gray;
+         background-color: transparent;
+     }
+     #disadvantage{
+         background-color: bisque;
+         width: 350px;
+         height: 70vh;
+         border: 2px solid black;
+         border-top-right-radius: 50px;
+         border-bottom-right-radius: 50px;
+         box-shadow: 0px 0px 4px 4px gray;
+         background-color: transparent;
+     }
+     h2{
+         text-align: center;
+     }
+     
+     h1{
+         text-align: center;
+     }
+    
+    }
+ @media (max-width:992px) and (min-width:769px){
+     #container{
+         width: 100%;
+         height: 70vh;
+         /* background-color: lightsteelblue; */
+         background-image: url("https://clipart-library.com/data_images/549664.gif");
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         justify-content: center;
+         margin: auto; 
+     }
+     hr{
+         height: 2px;
+         border: 2px solid black;
+         background-color: black;
+     }
+     #ad{
+         width: 350px;
+         height: 70vh;
+         border: 2px solid black;
+         background-color: antiquewhite;
+         border-top-left-radius: 50px;
+         border-bottom-left-radius: 50px;
+         box-shadow: 0px 0px 4px 4px gray;
+         background-color: transparent;
+     }
+     #disadvantage{
+         background-color: bisque;
+         width: 350px;
+         height: 70vh;
+         border: 2px solid black;
+         border-top-right-radius: 50px;
+         border-bottom-right-radius: 50px;
+         box-shadow: 0px 0px 4px 4px gray;
+         background-color: transparent;
+     }
+     h2{
+         text-align: center;
+     }
+     .nav-item a{
+        font-weight: 500;
+        transition: all ease.50s;
+        border-bottom: 2px solid transparent;
+      }
+      .nav-item:hover a{
+        border-bottom: 2px solid black;
+      } 
+     
+     h1{
+         text-align: center;
+     }
+    }
+     @media (max-width:768px) and (min-width:601px){
+         #container{
+             width: 90%;
+             height: 70vh;
+             /* background-color: lightsteelblue; */
+             background-image: url("https://clipart-library.com/data_images/549664.gif");
+             background-repeat: no-repeat;
+             background-size: cover;
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             justify-content: center;
+             margin: auto; 
+         }
+         hr{
+             height: 2px;
+             border: 2px solid black;
+             background-color: black;
+         }
+         #ad{
+             width: 350px;
+             height: 70vh;
+             border: 2px solid black;
+             background-color: antiquewhite;
+             border-top-left-radius: 50px;
+             border-bottom-left-radius: 50px;
+             box-shadow: 0px 0px 4px 4px gray;
+             background-color: transparent;
+         }
+         #disadvantage{
+             background-color: bisque;
+             width: 350px;
+             height: 70vh;
+             border: 2px solid black;
+             border-top-right-radius: 50px;
+             border-bottom-right-radius: 50px;
+             box-shadow: 0px 0px 4px 4px gray;
+             background-color: transparent;
+         }
+         h2{
+             text-align: center;
+         }
+         .nav-item a{
+            font-weight: 500;
+            transition: all ease.50s;
+            border-bottom: 2px solid transparent;
+          }
+          .nav-item:hover a{
+            border-bottom: 2px solid black;
+          } 
+         h1{
+             text-align: center;
+         }
+     }
+    

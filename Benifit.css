@@ -1,0 +1,639 @@
+@media(max-width:600px){
+
+    .container-fluid{
+        background-color:lightblue;
+        width: 100%;
+      }
+      nav{
+          cursor: pointer;
+      }
+    
+      #logo{
+        width: 90px;
+        height: 80px;
+      }
+      .card-body i{
+    
+        color: black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        
+            }
+                
+    h2{
+        text-align: center;
+        background-color:lightskyblue;
+    }
+    #benefitdiv{
+        display: flex;
+        margin: 0 auto;
+        background-color: lightsteelblue;
+        width: 80%;
+        height: 140vh;
+        box-shadow: 1px 1px 1px lightcyan;
+       
+    }
+    .st:hover{
+        transform: scale(0.9);
+        transition: 1s;
+        background-color: beige;
+    
+    }
+    .sp:hover{
+        transform: scale(0.9);
+        transition: 1s;
+        background-color: beige;
+    }
+    .sd:hover{
+        transform: scale(0.9);
+        transition: 1s;
+        background-color: beige;  
+    }
+    .nav-item a{
+        font-weight: 500;
+        transition: all ease.50s;
+        border-bottom: 2px solid transparent;
+      }
+      .nav-item:hover a{
+        border-bottom: 2px solid black;
+      } 
+    .sb:hover{
+        transform: scale(0.9);
+        transition: 1s;
+        background-color: beige; 
+    }
+    #cdiv1 img{
+    width: 150px;
+    height: 30vh;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    }
+    #cdiv1{
+        border: 1px solid black;
+        width: 70%;
+    }
+    
+    h3{
+        text-align: center;
+    }
+    #cdiv1 p{
+        text-align: center;
+       
+        }
+    
+       
+            
+            #cdiv2 h3{
+                text-align: center;
+    
+            }
+            #cdiv2 img{
+                width: 150px;
+                height: 30vh; 
+                display: flex;
+                margin: auto;
+                box-shadow: 0px 0px 10px black;
+    
+            }
+    
+            #cdiv2 p{
+                text-align: center;
+               
+            }
+            #cdiv2{
+            width: 70%;
+            }
+            #cdiv2{
+                border: 1px solid black;
+                padding-left: 10px;
+            }
+            .card-body i{
+
+                color: black;
+                border-radius: 20px;
+                padding: 10px 20px;
+                
+                    }
+
+                    .card-body i{
+
+                        color: black;
+                        border-radius: 20px;
+                        padding: 10px 20px;
+                        
+                            }
+                      
+                      .d-flex button{
+                        padding-left: 10px;
+                        height: 40px;
+                       
+                        border-radius: 50px;
+                      }
+                      .d-flex button:hover{
+                        background-color:lightsteelblue;
+                        border-radius: 50px;
+                      }
+                      .dropdown{
+                       padding-left: 9px;
+                      }
+                      .d-flex{
+                        padding-left: 480px; 
+                      }
+                    
+                      .card-header{
+                        text-align: center;
+                      }
+                      .card-text{
+                        text-align: center;
+                      }
+                     .card-body{
+                      text-align: center;
+                      background-color: lightskyblue;
+                     }
+                     .card-body:hover{
+                      background-color: lightcyan;
+                      transition: 1.5s;
+                     }
+                     
+        }
+
+        @media(min-width:601px) and (max-width:768px){
+
+            .container-fluid{
+                background-color:lightblue;
+                width: 100%;
+              }
+              nav{
+                  cursor: pointer;
+              }
+            
+              #logo{
+                width: 90px;
+                height: 80px;
+              }
+              .card-body i{
+            
+                color: black;
+                border-radius: 20px;
+                padding: 10px 20px;
+                
+                    }
+                
+            h2{
+                text-align: center;
+                background-color:lightskyblue;
+            }
+            #benefitdiv{
+                display: flex;
+                margin: 0 auto;
+                background-color: lightsteelblue;
+                width: 80%;
+                height: 140vh;
+                box-shadow: 1px 1px 1px lightcyan;
+               
+            }
+            .st:hover{
+                transform: scale(0.9);
+                transition: 1s;
+                background-color: beige;
+            
+            }
+            .sp:hover{
+                transform: scale(0.9);
+                transition: 1s;
+                background-color: beige;
+            }
+            .sd:hover{
+                transform: scale(0.9);
+                transition: 1s;
+                background-color: beige;  
+            }
+            .nav-item a{
+                font-weight: 500;
+                transition: all ease.50s;
+                border-bottom: 2px solid transparent;
+              }
+              .nav-item:hover a{
+                border-bottom: 2px solid black;
+              } 
+            .sb:hover{
+                transform: scale(0.9);
+                transition: 1s;
+                background-color: beige; 
+            }
+            #cdiv1 img{
+            width: 200px;
+            height: 35vh;
+            display: flex;
+            margin: auto;
+            box-shadow: 0px 0px 10px black;
+            }
+            #cdiv1{
+                border: 1px solid black;
+                width: 70%;
+            }
+            
+            h3{
+                text-align: center;
+            }
+            #cdiv1 p{
+                text-align: center;
+               
+                }
+            
+               
+                    
+                    #cdiv2 h3{
+                        text-align: center;
+            
+                    }
+                    #cdiv2 img{
+                        width: 200px;
+                        height: 35vh; 
+                        display: flex;
+                        margin: auto;
+                        box-shadow: 0px 0px 10px black;
+            
+                    }
+            
+                    #cdiv2 p{
+                        text-align: center;
+                       
+                    }
+                    #cdiv2{
+                    width:70%;
+                    }
+                    #cdiv2{
+                        border: 1px solid black;
+                        padding-left: 10px;
+                    }
+                    .card-body i{
+
+                        color: black;
+                        border-radius: 20px;
+                        padding: 10px 20px;
+                        
+                            }
+
+                            .card-body i{
+
+                                color: black;
+                                border-radius: 20px;
+                                padding: 10px 20px;
+                                
+                                    }
+                              
+                              .d-flex button{
+                                padding-left: 10px;
+                                height: 40px;
+                               
+                                border-radius: 50px;
+                              }
+                              .d-flex button:hover{
+                                background-color:lightsteelblue;
+                                border-radius: 50px;
+                              }
+                              .dropdown{
+                               padding-left: 9px;
+                              }
+                              .d-flex{
+                                padding-left: 480px; 
+                              }
+                            
+                              .card-header{
+                                text-align: center;
+                              }
+                              .card-text{
+                                text-align: center;
+                              }
+                             .card-body{
+                              text-align: center;
+                              background-color: lightskyblue;
+                             }
+                             .card-body:hover{
+                              background-color: lightcyan;
+                              transition: 1.5s;
+                             }
+                             
+                }
+
+                @media(min-width:769px) and (max-width:992px){
+
+                    .container-fluid{
+                        background-color:lightblue;
+                        width: 100%;
+                      }
+                      nav{
+                          cursor: pointer;
+                      }
+                    
+                      #logo{
+                        width: 90px;
+                        height: 80px;
+                      }
+                      .card-body i{
+                    
+                        color: black;
+                        border-radius: 20px;
+                        padding: 10px 20px;
+                        
+                            }
+                        
+                    h2{
+                        text-align: center;
+                        background-color:lightskyblue;
+                    }
+                    #benefitdiv{
+                        display: flex;
+                        margin: 0 auto;
+                        background-color: lightsteelblue;
+                        width: 80%;
+                        height: 140vh;
+                        box-shadow: 1px 1px 1px lightcyan;
+                       
+                    }
+                    .st:hover{
+                        transform: scale(0.9);
+                        transition: 1s;
+                        background-color: beige;
+                    
+                    }
+                    .sp:hover{
+                        transform: scale(0.9);
+                        transition: 1s;
+                        background-color: beige;
+                    }
+                    .sd:hover{
+                        transform: scale(0.9);
+                        transition: 1s;
+                        background-color: beige;  
+                    }
+                    .nav-item a{
+                        font-weight: 500;
+                        transition: all ease.50s;
+                        border-bottom: 2px solid transparent;
+                      }
+                      .nav-item:hover a{
+                        border-bottom: 2px solid black;
+                      } 
+                    .sb:hover{
+                        transform: scale(0.9);
+                        transition: 1s;
+                        background-color: beige; 
+                    }
+                    #cdiv1 img{
+                    width: 200px;
+                    height: 35vh;
+                    display: flex;
+                    margin: auto;
+                    box-shadow: 0px 0px 10px black;
+                    }
+                    #cdiv1{
+                        border: 1px solid black;
+                        width: 70%;
+                    }
+                    
+                    h3{
+                        text-align: center;
+                    }
+                    #cdiv1 p{
+                        text-align: center;
+                       
+                        }
+                    
+                       
+                            
+                            #cdiv2 h3{
+                                text-align: center;
+                    
+                            }
+                            #cdiv2 img{
+                                width: 200px;
+                                height: 35vh; 
+                                display: flex;
+                                margin: auto;
+                                box-shadow: 0px 0px 10px black;
+                    
+                            }
+                    
+                            #cdiv2 p{
+                                text-align: center;
+                               
+                            }
+                            #cdiv2{
+                                width: 70%;
+                            }
+                            #cdiv2{
+                                border: 1px solid black;
+                                padding-left: 10px;
+                            }
+                            .card-body i{
+        
+                                color: black;
+                                border-radius: 20px;
+                                padding: 10px 20px;
+                                
+                                    }
+
+                                    .card-body i{
+
+                                        color: black;
+                                        border-radius: 20px;
+                                        padding: 10px 20px;
+                                        
+                                            }
+                                      
+                                      .d-flex button{
+                                        padding-left: 10px;
+                                        height: 40px;
+                                       
+                                        border-radius: 50px;
+                                      }
+                                      .d-flex button:hover{
+                                        background-color:lightsteelblue;
+                                        border-radius: 50px;
+                                      }
+                                      .dropdown{
+                                       padding-left: 9px;
+                                      }
+                                      .d-flex{
+                                        padding-left: 480px; 
+                                      }
+                                    
+                                      .card-header{
+                                        text-align: center;
+                                      }
+                                      .card-text{
+                                        text-align: center;
+                                      }
+                                     .card-body{
+                                      text-align: center;
+                                      background-color: lightskyblue;
+                                     }
+                                     .card-body:hover{
+                                      background-color: lightcyan;
+                                      transition: 1.5s;
+                                     }
+                                     
+                        }
+        
+
+            @media(min-width:1200px){
+
+                .container-fluid{
+                    background-color:lightblue;
+                    width: 100%;
+                  }
+                  nav{
+                      cursor: pointer;
+                  }
+                
+                  #logo{
+                    width: 90px;
+                    height: 80px;
+                  }
+                  .card-body i{
+                
+                    color: black;
+                    border-radius: 20px;
+                    padding: 10px 20px;
+                    
+                        }
+                
+                h2{
+                    text-align: center;
+                    background-color:lightskyblue;
+                }
+                #benefitdiv{
+                    display: flex;
+                    margin: 0 auto;
+                    background-color: lightsteelblue;
+                    width: 80%;
+                    height: 140vh;
+                    box-shadow: 1px 1px 1px lightcyan;
+                   
+                }
+                .st:hover{
+                    transform: scale(0.9);
+                    transition: 1s;
+                    background-color: beige;
+                
+                }
+                .sp:hover{
+                    transform: scale(0.9);
+                    transition: 1s;
+                    background-color: beige;
+                }
+                .sd:hover{
+                    transform: scale(0.9);
+                    transition: 1s;
+                    background-color: beige;  
+                }
+                .nav-item a{
+                    font-weight: 500;
+                    transition: all ease.50s;
+                    border-bottom: 2px solid transparent;
+                  }
+                  .nav-item:hover a{
+                    border-bottom: 2px solid black;
+                  } 
+                .sb:hover{
+                    transform: scale(0.9);
+                    transition: 1s;
+                    background-color: beige; 
+                }
+                #cdiv1 img{
+                width: 200px;
+                height: 35vh;
+                display: flex;
+                margin: auto;
+                box-shadow: 0px 0px 10px black;
+                }
+                #cdiv1{
+                    border: 1px solid black;
+                    width: 70%;
+                }
+                
+                h3{
+                    text-align: center;
+                }
+                #cdiv1 p{
+                    text-align: center;
+                   
+                    }
+                
+                   
+                        
+                        #cdiv2 h3{
+                            text-align: center;
+                
+                        }
+                        #cdiv2 img{
+                            width: 200px;
+                            height: 35vh; 
+                            display: flex;
+                            margin: auto;
+                            box-shadow: 0px 0px 10px black;
+                
+                        }
+                
+                        #cdiv2 p{
+                            text-align: center;
+                           
+                        }
+                        #cdiv2{
+                            width: 70%;
+                        }
+                        #cdiv2{
+                            border: 1px solid black;
+                            padding-left: 10px;
+                        }
+                        .card-body i{
+
+                            color: black;
+                            border-radius: 20px;
+                            padding: 10px 20px;
+                            
+                                }
+                                .card-body i{
+
+                                    color: black;
+                                    border-radius: 20px;
+                                    padding: 10px 20px;
+                                    
+                                        }
+                                  
+                                  .d-flex button{
+                                    padding-left: 10px;
+                                    height: 40px;
+                                   
+                                    border-radius: 50px;
+                                  }
+                                  .d-flex button:hover{
+                                    background-color:lightsteelblue;
+                                    border-radius: 50px;
+                                  }
+                                  .dropdown{
+                                   padding-left: 9px;
+                                  }
+                                  .d-flex{
+                                    padding-left: 480px; 
+                                  }
+                                
+                                  .card-header{
+                                    text-align: center;
+                                  }
+                                  .card-text{
+                                    text-align: center;
+                                  }
+                                 .card-body{
+                                  text-align: center;
+                                  background-color: lightskyblue;
+                                 }
+                                 .card-body:hover{
+                                  background-color: lightcyan;
+                                  transition: 1.5s;
+                                 }
+                                 
+                    }
